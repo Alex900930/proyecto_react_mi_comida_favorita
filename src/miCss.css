@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: goldenrod;
+}
+
+h1{
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+img {
+ width: 100%;
+ height: 100%;
+}
+
+.contenedor-general{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1550px;
+    height: 400px;
+}
+
+.contenedor-primario {
+    width: 300px;
+    height: 300px;
+    margin: 12px;
+    padding: 12px;
+    text-align: center;
+    font-family: Lato, sans-serif;
+}
